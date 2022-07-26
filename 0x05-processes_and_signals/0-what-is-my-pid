@@ -1,1 +1,3 @@
-ssh-ed25519 AAAAC3NzaC11ZDI1NTE5AAAAIC27E9bbJWq2+EyVB6rTNTxiD7WBFHcS1mOw6rwt9LmA kebedemathiyos@gmail.com
+#!/usr/bin/env bash
+#Bash script that prints the PID
+echo $$
