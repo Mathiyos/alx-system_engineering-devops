@@ -6,14 +6,11 @@ do
 	echo "$x"
 	case $x in
 		4)
-			echo "bad luck from China"
-			;;
+			echo "bad luck from China";;
 		9)
-			echo "bad luck for Japan"
-			;;
+			echo "bad luck for Japan";;
 		17)
-			echo "bad luck for Italy"
-			;;
+			echo "bad luck for Italy";;
 	esac
-	x=$(( x+1 ))
+	(( x++ ))
 done
