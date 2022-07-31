@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# script that display 10 times using while and if
+m=1
+while (( m<=10))
+do
+	echo "Best School"
+	if (( m ==9 ))
+	then
+		echo "Hi"
+	fi
+	m=$(( m+1 ))
+done
